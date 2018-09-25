@@ -6,9 +6,10 @@
 ! to create a directory !: call execute_command_line('mkdir directoryname',WAIT=.TRUE.)
 
 program    chebyshev_meets_splines
-    use what_you_need_mod
+    use polynomial_description
     integer i,j
     real ancil1
+
 
 !;  zadatq polinom dlqa priblizxenija
 !;  zadatq splajnovyje znacxenija 0 i 1 proizvodnyh
